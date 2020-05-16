@@ -8,7 +8,7 @@ public class MyController {
 
 	@GetMapping(value = "/welcome-message")
 	public String getWelcomeMsg() {
-		System.out.println("Insie getWelcomeMsg() method.");
+		System.out.println("Inside getWelcomeMsg() method.");
 		return "Hello";
 	}
 }
