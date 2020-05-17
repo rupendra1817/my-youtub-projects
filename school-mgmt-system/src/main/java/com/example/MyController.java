@@ -8,6 +8,7 @@ public class MyController {
 
 	@GetMapping(value = "/welcome-message")
 	public String getWelcomeMsg() {
+		System.out.println("In sidegetWelcomeMsg() method.");
 		return "Hello";
 	}
 }
